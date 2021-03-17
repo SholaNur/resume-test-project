@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+.box-wrapper {
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+}
+
+.box {
+    width: 100%;
+    height: vh;
+}
+
+.box-boxtwo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.work,
+.education {
+    width: 100%;
+    height: vh;
+    background-color: white;
+    padding-left: 20px;
+}
+
+img {
+    width: 280px;
+    height: 260px;
+}
+
+
+/* Style for section one starts */
+
+.box-boxone {
+    margin-left: 10px;
+    background-color: white;
+}
+
+.box-boxone p {
+    color: grey;
+    font-size: medium;
+    font-family: serif;
+    padding-left: 10px;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+span {
+    padding: 10px;
+    color: gray;
+}
+
+.fa {
+    color: #009688;
+}
+
+.header {
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.large-grey {
+    width: 250px;
+    height: 20px;
+    border: 1px solid grey;
+    background-color: lightgrey;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    margin-left: 10px;
+}
+
+.ninty-five {
+    width: 235px;
+    background-color: #009688;
+    border-radius: 10px;
+}
+
+.ninty {
+    width: 215px;
+    background-color: #009688;
+    border-radius: 10px;
+}
+
+.eighty {
+    width: 205px;
+    background-color: #009688;
+    border-radius: 10px;
+}
+
+.seventy-five {
+    width: 200px;
+    background-color: #009688;
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #009688;
+    width: 100%;
+    height: 100px;
+    margin-top: 15px;
+}
+
+footer .fa {
+    color: white;
+}
+
+hr {
+    width: 97%;
+}
